@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+    overflow-x: hidden;
+}
+/*______________________Navigation__________________*/
+#navbar {
+    z-index: 3;
+    position: fixed;
+}
+
+.NavList {
+    position: fixed;
+    width: 50%;
+    list-style-type: none;
+    margin-top: -20px;
+    margin-left: -1%;
+    height: 62px;
+    z-index: 1;
+    line-height: 2.1;
+}
+
+.navLink {
+    float: left;
+    font-size: 22px;
+    padding-top: 3%;
+}
+
+.navLink a, .dropbtn {
+    display: inline-block;
+    color: #e0e0eb;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.navLink a:hover, .dropdown:hover {
+    background-color: #99CCCC;
+    color: #e0e0eb;
+}
+
+.book {
+    z-index: 3;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+
+.book-btn {
+    background-image: url(../Images/Logo/background-1.jpg);
+    width: 56%;
+    height: 179%;
+    border-radius: 53px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #ff6a00;
+}
+.a-h-logo {
+     margin-top: -16%;
+    margin-left: 35%;
+    width: 43%;
+}
+
+#ldn {
+    text-align: left;
+    float: left;
+}
+
+#dub {
+    margin-left: 33%;
+    float: left;
+}
+
+#ny {
+    text-align:right;
+}
+/*_____________________________________Carousel_________________________________________________________________*/
+
+.carousel-container {
+    margin-top: -104px;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 102%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+/*________________________________Content___________________________________________________________*/
+
+.main-content{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 2%;
+}
+
+.content-img {
+    max-width: 85%;
+}
+
+.content {
+    padding: 2%;
+    border: #808080 solid 2px;
+}
+.content-Lorem {
+    background-color: #FEF7E9;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.content-row {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+hr {
+    border-top: 2px solid #F39200 !important;
+    padding-bottom: 5px;
+    width: 75%;
+}
